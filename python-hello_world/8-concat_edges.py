@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 
-print(int("object-oriented programming with Python" == "object-oriented programming with Python"))
+print(str(b"object-oriented programming with Python", 'utf-8'))
