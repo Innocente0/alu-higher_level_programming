@@ -2,4 +2,5 @@
 
 str1 = "Welcome to "
 str2 = "Holberton School!"
-print(str1 + str2)
+
+print(int(str1 + str2 == "Welcome to Holberton School!"))
