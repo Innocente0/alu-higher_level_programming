@@ -1,5 +1,5 @@
 #!/usr/bin/python3
+
 str1 = "Welcome to "
 str2 = "Holberton School!"
-
 print(int(str1 + str2 == "Welcome to Holberton School!"))
