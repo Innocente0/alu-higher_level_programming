@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 
-print(int("".join(["object-orient", "ed programming with ", "Pyth", "on"]) == "object-oriented programming with Python"))
+print(int("object-oriented programming with Python" == "object-oriented programming with Python"))
