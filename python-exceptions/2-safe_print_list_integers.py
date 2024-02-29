@@ -1,18 +1,16 @@
 #!/usr/bin/python3
 def safe_print_list_integers(my_list=[], x=0):
-    count = 0
     try:
+        count = 0
         for item in my_list:
             if isinstance(item, int):
-                print("{:d}".format(item), end=" ")
+                print("{:d}".format(item))
                 count += 1
-                if count >= x:
+                if count == x:
                     break
+        return count
     except IndexError:
-        pass  # Ignore IndexError if x exceeds the length of my_list
-    finally:
-        print()
-    return count
+        return count
 
 # Test cases
 if __name__ == "__main__":
