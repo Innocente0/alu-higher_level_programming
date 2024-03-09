@@ -21,3 +21,4 @@ class Square:
         """ Method that returns the square are of the object
         """
         return (self.__size ** 2)
+    
